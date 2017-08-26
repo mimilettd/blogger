@@ -11,8 +11,8 @@ RSpec.describe "User can create a new article", :type => :feature do
 
     visit "articles/new"
 
-    fill_in "Title:", :with => "Sinatra to Rails: You'll Never Want to Go Back"
-    fill_in "Body:", :with => "Who said coding had to be hard? Try Rails!"
+    fill_in "Title", :with => "Sinatra to Rails: You'll Never Want to Go Back"
+    fill_in "Body", :with => "Who said coding had to be hard? Try Rails!"
     click_button "Create"
 
     expect(page).to have_content("Sinatra to Rails: You'll Never Want to Go Back")
