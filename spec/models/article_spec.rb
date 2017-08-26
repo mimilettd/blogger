@@ -4,7 +4,7 @@ RSpec.describe Article, type: :model do
   subject {
     described_class.new(title: "Learn Ruby the Hard Way",
                         body: "In seven weeks, learn how to code like a real programmer!")
-          }
+  }
   it "is valid with valid attributes" do
     expect(subject).to be_valid
   end
