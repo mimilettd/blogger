@@ -43,6 +43,7 @@ group :development, :test do
   gem 'launchy'
   gem 'capybara'
   gem 'shoulda', '~> 3.5'
+  gem 'sorcery'
 end
 
 group :development do
