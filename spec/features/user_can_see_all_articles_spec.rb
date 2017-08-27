@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can see all articles", :type => :feature do
+RSpec.feature "Articles", :type => :feature do
   scenario "User visits articles#index and can see all articles" do
 
     Article.create(title: "Learn Ruby the Hard Way",

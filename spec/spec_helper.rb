@@ -94,3 +94,9 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+require "paperclip/matchers"
+
+RSpec.configure do |config|
+  config.include Paperclip::Shoulda::Matchers
+end
