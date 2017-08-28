@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can see an individual article", :type => :feature do
+RSpec.feature "Articles", :type => :feature do
   scenario "User visits articles#show and can see that specific article" do
 
     article = Article.create(title: "Learn Ruby the Hard Way",

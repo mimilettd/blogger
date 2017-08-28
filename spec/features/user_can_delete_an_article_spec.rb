@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can delete an article", :type => :feature do
+RSpec.feature "Delete articles", :type => :feature do
   scenario "User visits articles#show and can click link to delete that article" do
 
     Article.create(title: "Learn Ruby the Hard Way",

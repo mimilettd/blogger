@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can edit an article", :type => :feature do
+RSpec.feature "Edit articles", :type => :feature do
   scenario "User visits articles#show and can click link to edit that article" do
 
     article = Article.create(title: "Learn Ruby the Hard Way",

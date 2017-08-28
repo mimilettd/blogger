@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User can create a new comment" do
+RSpec.feature "Add comments" do
   before(:each) do
     @article = Article.create(title: "Learn Ruby the Hard Way",
                               body: "In seven weeks, learn how to code like a real programmer!")
